@@ -4,6 +4,7 @@ import { FeaturesSection } from "@/components/landing/FeaturesSection";
 import { AboutSection } from "@/components/landing/AboutSection";
 import { FAQSection } from "@/components/landing/FAQSection";
 import { Footer } from "@/components/landing/Footer";
+import { CTASection } from "@/components/landing/CTASection";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
         <FeaturesSection />
         <AboutSection />
         <FAQSection />
+        <CTASection />
       </main>
       <Footer />
     </div>

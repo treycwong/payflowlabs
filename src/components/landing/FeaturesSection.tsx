@@ -4,7 +4,7 @@ import {
   Smartphone,
   Shield,
   Globe,
-  Palette,
+  Layers,
 } from "lucide-react";
 
 const features = [
@@ -39,10 +39,10 @@ const features = [
       "Multi-currency, localization, and regional payment method patterns for worldwide audiences.",
   },
   {
-    icon: Palette,
-    title: "Component Library",
+    icon: Layers,
+    title: "Real-World Patterns",
     description:
-      "Ready-to-use UI kits and Figma components built specifically for payment and checkout interfaces.",
+      "Study UX breakdowns from industry giants like Airbnb, Grab, Shopify, Amazon, and more.",
   },
 ];
 
