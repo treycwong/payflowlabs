@@ -22,14 +22,14 @@ export function HeroSection() {
         <h1 className="max-w-3xl text-4xl font-bold leading-[1.1] tracking-tight md:text-6xl lg:text-7xl">
           Payment flows that{" "}
           <span className="bg-gradient-to-r from-primary via-violet-600 to-indigo-600 bg-clip-text text-transparent">
-            convert
+            converts
           </span>
         </h1>
 
         {/* Subtext */}
         <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-          Curated patterns, proven strategies, and real-world examples to help
-          you design checkout experiences that delight users and drive revenue.
+          Payment UX/UI patterns that comes with a simulator to help you design
+          checkout experiences.
         </p>
 
         {/* CTAs */}
@@ -41,13 +41,13 @@ export function HeroSection() {
             </Link>
           </Button>
           <Button variant="outline" size="lg" className="px-8" asChild>
-            <a href="#features">See What&apos;s Inside</a>
+            <Link href="/ebook">Free eBook</Link>
           </Button>
         </div>
 
         {/* Social proof */}
         <p className="mt-12 text-sm text-muted-foreground/70">
-          Trusted by 2,000+ product designers and payment teams worldwide
+          Real-world examples from top-tier apps.
         </p>
       </div>
     </section>
